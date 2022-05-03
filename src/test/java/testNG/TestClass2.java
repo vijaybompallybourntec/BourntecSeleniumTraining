@@ -8,6 +8,7 @@ public class TestClass2 extends TestBaseTestNG{
     public void testCase3(){
         System.out.println("This is test case 3");
         System.out.println("sdxcfvgbhnjmkl");
+        System.out.println("testcase 3");
     }
 
     @Test
