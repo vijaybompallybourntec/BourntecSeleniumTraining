@@ -64,5 +64,6 @@ public class Test_Base {
     public static void closeBrowser()
     {
         driver.close();
+        driver.quit();
     }
 }
