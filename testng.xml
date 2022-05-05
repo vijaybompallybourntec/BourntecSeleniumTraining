@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="7" preserve-order="true" name="C:/Users/bourntec/Documents/QA_COE/src/test/java/testNG/TestCase1.java">
+        <classes><class name="testNG.TestClass1">
+            <methods>
+                <include name="testCase1"/>
+                <exclude name="testCase2"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+    <test verbose="7" preserve-order="true" name="C:/Users/bourntec/Documents/QA_COE/src/test/java/testNG/TestCase2.java">
+        <classes>
+            <class name="testNG.TestClass2">
+                <methods>
+                    <include name="testCase3"/>
+                    <include name="testCase4"/>
+                </methods></class>
+        </classes>
+    </test>
+</suite>
